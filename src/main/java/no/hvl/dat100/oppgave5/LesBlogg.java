@@ -33,7 +33,7 @@ public class LesBlogg {
 			}
 
 			while (leser.hasNextLine()){
-				string type = leser.nextLine().trim();
+				String type = leser.nextLine().trim();
 				if (type.isEmpty()){
 					continue;
 				}
